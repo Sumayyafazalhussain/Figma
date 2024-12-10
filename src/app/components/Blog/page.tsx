@@ -2,7 +2,7 @@ import Footer from "../footer";
 import Header from "../header";
 import Image from "next/image";
 import React from "react";
-import { IoChevronForwardSharp } from "react-icons/io5";
+
 
 const Blog = () => {
   return (
@@ -22,7 +22,7 @@ const Blog = () => {
           <div className="flex">
             <p className="font-poppins font-semibold flex items-center text-[12px] sm:text-[16px]">
               Home
-              <IoChevronForwardSharp />
+          
             </p>
             <span className="text-[12px] sm:text-[16px]">Blog</span>
           </div>
